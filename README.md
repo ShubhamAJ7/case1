@@ -33,3 +33,60 @@ public class casse
 
 }
 }
+///////////////////////////////////////////////////////////////////////////////////
+////////////////DAY 7////////////////////////////
+
+package pack1;
+
+  class Parent{
+	  
+	public void ass() {
+		System.out.println("heii");
+	}
+}
+
+ public class Acc {
+
+	private  void display() {
+		System.out.println("this is welcome class display method");
+	}
+	public static void main(String[] args) {
+		
+	      Acc wel = new Acc();
+	         Parent p= new Parent();
+                 	//wel.assign();
+                 	wel.display();
+}
+}
+///
+package pack2;
+
+import pack1.*; 
+class Paren{
+	  
+	private void assign() {
+	   System.out.println("hello");
+   }
+     
+	void assi() {
+		System.out.println("hello");
+	}
+   
+
+}
+public class Ac 
+{ 
+	public static void main(String[] args) {
+		
+		//Welcome wel= new Welcome(); 
+		Ac hel= new Ac();
+		//hel.assign();
+		//hel.assi();
+		hel.ass();
+		
+		//hel.display();
+	}
+
+	
+
+}
